@@ -106,29 +106,29 @@ export default function Navbar() {
                                     href="/"
                                     className="w-full col-span-1 flex flex-col items-center justify-center gap-y-2"
                               >
-                                    <Icon.home className="w-6 h-6 text-slate-800" />
-                                    <h2 className="font-normal text-[10px] text-slate-800">Home</h2>
+                                    <Icon.home className="w-6 h-6 mobile:w-5 mobile:h-5 text-slate-800" />
+                                    <h2 className="font-normal text-[10px] mobile:text-[7px] text-center text-slate-800">Home</h2>
                               </Link>
                               <Link
                                     href="/"
                                     className="w-full col-span-1 flex flex-col items-center justify-center gap-y-2"
                               >
-                                    <Icon.ticket className="w-6 h-6 text-slate-400" />
-                                    <h2 className="font-normal text-[10px] text-slate-400">Event</h2>
+                                    <Icon.ticket className="w-6 h-6 mobile:w-5 mobile:h-5 text-slate-400" />
+                                    <h2 className="font-normal text-[10px] mobile:text-[7px] text-center text-slate-400">Event</h2>
                               </Link>
                               <Link
                                     href="/"
                                     className="w-full col-span-1 flex flex-col items-center justify-center gap-y-2"
                               >
-                                    <Icon.handHeart className="w-6 h-6 text-slate-400" />
-                                    <h2 className="font-normal text-[10px] text-slate-400">Donasi</h2>
+                                    <Icon.handHeart className="w-6 h-6 mobile:w-5 mobile:h-5 text-slate-400" />
+                                    <h2 className="font-normal text-[10px] mobile:text-[7px] text-center text-slate-400">Donasi</h2>
                               </Link>
                               <Link
                                     href="/"
                                     className="w-full col-span-1 flex flex-col items-center justify-center gap-y-2"
                               >
-                                    <Icon.calendar className="w-6 h-6 text-slate-400" />
-                                    <h2 className="font-normal text-[10px] text-slate-400">
+                                    <Icon.calendar className="w-6 h-6 mobile:w-5 mobile:h-5 text-slate-400" />
+                                    <h2 className="font-normal text-[10px] mobile:text-[7px] text-center text-slate-400">
                                           Amal Harian
                                     </h2>
                               </Link>
@@ -136,8 +136,8 @@ export default function Navbar() {
                                     href="/"
                                     className="w-full col-span-1 flex flex-col items-center justify-center gap-y-2"
                               >
-                                    <Icon.account className="w-6 h-6 text-slate-400" />
-                                    <h2 className="font-normal text-[10px] text-slate-400">Akun</h2>
+                                    <Icon.account className="w-6 h-6 mobile:w-5 mobile:h-5 text-slate-400" />
+                                    <h2 className="font-normal text-[10px] mobile:text-[7px] text-center text-slate-400">Akun</h2>
                               </Link>
                         </section>
                   </nav>

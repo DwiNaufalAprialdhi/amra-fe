@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     screens: {
+      mobile: "320px", // Custom screen untuk mobile
       sm: "640px",
       md: "768px",
       tablet: "1024px", // Tambahkan ukuran kustom "tablet"

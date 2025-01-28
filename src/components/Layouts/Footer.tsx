@@ -42,7 +42,7 @@ export default function Footer() {
                                                       <Icon.threads className='lg:w-[16px] w-[12px] lg:h-[16px] h-[12px] text-slate-50' />
                                                 </Link>
                                           </div>
-                                          <h2 className='font-normal lg:text-[15px] text-xs text-[#94A3B8]'>
+                                          <h2 className='font-normal lg:text-[15px] text-xs text-[#94A3B8] lg:text-start text-center'>
                                                 Copyright © Amazing Ramadan 2025, all rights reserved
                                           </h2>
                                     </div>

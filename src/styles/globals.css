@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth font-roboto text-slate-800;
+  }
+}
+
+@layer components {
+  .container_section {
+    @apply w-full lg:max-w-[1200px] md:max-w-[696px] max-w-none lg:px-0 md:px-0 px-5 mx-auto;
+  }
+  .container_section_slider {
+    @apply w-full lg:max-w-[1200px] md:max-w-[696px] max-w-none lg:pl-0 lg:pr-0 pl-5 pr-0 mx-auto;
+  }
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .font-baloo {
+    font-family: "Baloo 2", sans-serif;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoomIn {
+  animation: zoomIn 10s ease-in infinite;
+}
+
+.box-shadow {
+  width: 0px; /* Sesuaikan ukuran */
+  height: 0px; /* Sesuaikan ukuran */
+  border-radius: 50%; /* Membuat elemen bulat */
+  background-color: transparent; /* Warna latar elemen */
+  box-shadow: 0 0 50px 25px rgba(212, 47, 4, 0.5); /* Masking smooth shadow */
+}
+
+.swiper-slide {
+  box-shadow: none !important; /* Menghapus shadow */
+  background: transparent !important; /* Menghapus background yang mungkin memengaruhi tampilan */
+}
+
+/* Gaya untuk bullet pagination */
+.tranding-swiper .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 6px !important;
+  background-color: #d42f04 !important; /* Warna default */
+  border-radius: 20px !important; /* Membuat bullet berbentuk lingkaran */
+  transition: all 0.3s ease !important; /* Animasi perubahan */
+}
+
+/* Gaya untuk bullet yang aktif */
+.tranding-swiper .swiper-pagination-bullet-active {
+  width: 30px !important;
+  height: 6px !important;
+  background-color: #e29123 !important; /* Warna default */
+  border-radius: 20px !important; /* Membuat bullet berbentuk lingkaran */
+  transition: all 0.3s ease !important; /* Animasi perubahan */
+}
+
+@keyframes bounce1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce1 {
+  animation: bounce1 3.5s ease-in-out infinite;
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce2 {
+  animation: bounce2 4.5s ease-in-out infinite;
+}
+
+@keyframes bounce3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce3 {
+  animation: bounce3 4s ease-in-out infinite;
+}
+
+@keyframes bounce4 {
+  0% {
+    transform: translateX(-50%) translateY(0); /* Tetap pertahankan translateX(-50%) */
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.bounce4 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce4 3.75s ease-in-out infinite;
+}
